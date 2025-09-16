@@ -8,14 +8,14 @@ profile-pic
   Width: 150;
 Height: 150;
   }
-    body {
+ body {
       font-family: Arial, sans-serif;
-      margin: 20px;
       background: #f9f9f9;
     }
     table {
-      width: 100%;
-      background: #9CAF88 olivine;
+      width: 35%;
+      background: #d9dbd4; /*sage color*/
+      padding: 20px;
     }
     td {
       vertical-align: top;
@@ -23,8 +23,8 @@ Height: 150;
       border: 1px solid #dddd;
     }
     h2 {
-      margin-top: 0;
-      color: #444;
+      margin-bottom: 10px:
+      color: darckgreen;
     }
     ul {
       margin: 5px 0 5px 20px;
