@@ -1,106 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Angelie T. Fatalla</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Angelie T. Fatalla</title>
   <style>
-profile-pic
-{ 
-  Width: 150;
-Height: 150;
-  }
-     body {
+    body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
+      margin: 20px;
+      background: #f5f5f5;
     }
-    table
-    .left {
-      width: 35%;
-      background-color: #d9dbd4; /* sage color */
-      padding: 20px;
-    }
-    td
-    .left img {
+    table {
       width: 100%;
-      border-radius: 10px;
-      margin-bottom: 20px;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    .left h2 {
-      color: darkgreen;
-      margin-bottom: 10px;
-    }
-    .left p {
-      font-size: 14px;
-      color: #000;
-    }
-    .section-title {
-      color: #fff;
-      background: #000;
-      padding: 5px;
-      margin-top: 20px;
-      font-weight: bold;
-    }
-    .skills ul {
-      list-style: none;
-      padding: 0;
-    }
-    .skills ul li {
-      font-size: 14px;
-      margin-bottom: 5px;
-    }
-    .right {
-      width: 65%;
+    td {
+      vertical-align: top;
       padding: 20px;
-      background: #f2f2f2; /* very light gray */
     }
-    .name {
-      font-size: 28px;
-      color: darkgreen;
-      font-weight: bold;
+    /* Left column */
+    .left-col {
+      width: 35%;
+      background: #e0e0e0;
     }
-    .title {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    .work, .education {
-      margin-bottom: 20px;
-    }
-    .work h3, .education h3 {
-      background: #000; 
-      color: #fff;
-      padding: 5px;
-    }
-    .job, .school {
+    .profile-pic {
+      width: 100%;
+      border-radius: 6px;
       margin-bottom: 15px;
     }
-    .job h4, .school h4 {
-      margin: 5px 0;
-      color: #000;
+    h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #222;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 20px 0 10px;
+      color: #444;
+    }
+    h3 {
+      margin: 5px 0 15px;
+      font-size: 16px;
+      font-weight: normal;
+      color: #666;
+    }
+    p {
+      margin: 0 0 12px;
+      line-height: 1.5;
+      color: #333;
+    }
+    ul {
+      margin: 0 0 15px 20px;
     }
     .contact {
-      margin-top: 30px;
+      margin-top: 20px;
       font-size: 14px;
+      line-height: 1.6;
     }
   </style>
 </head>
 <body>
 
   <table>
-     <tr>
-       <td colspan ="2" class="header">
-         <img scr=".//ecaebfe5-ceb0-4487-810f-4e3812dfe7ab.jpg" alt="Angelie" class="profile-pic"> 
-        <h1>Angelie T. Fatalla</h1>
-        <p><b>IT Project Manager</b></p>
-      </td>
-    </tr>
-    
     <tr>
+      <!-- LEFT SIDE -->
       <td class="left-col">
-        <h2>Profile</h2>
-        <p>I am an IT project manager with holistic knowledge of software development and design. 
-        I am also experienced in coordinating with stakeholders.</p>
-       <h2>Skills</h2>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+
+        <h2>PROFILE</h2>
+        <p>
+          I am an IT project manager with holistic knowledge of software development 
+          and design. I am also experienced in coordinating with stakeholders.
+        </p>
+
+        <h2>SKILLS</h2>
         <ul>
           <li>Project Management</li>
           <li>Software Development</li>
@@ -109,35 +84,47 @@ Height: 150;
           <li>Staff and User Training</li>
           <li>Process Improvement</li>
         </ul>
-      </td>
-      <td class="right-col">
-        <h2>Work Experience</h2>
-        <p><b>Project Manager</b><br>
-        Westheon FGW | Nov 2034 – 2040<br>
-        - Conduct day-to-day project coordination, planning, and implementation across multiple teams</p>
-        <p><b>Senior UX Designer</b><br>
-        Pixelpoint Hive | Jan 2032 – Sept 2034<br>
-        - Managed complex projects from start to finish<br>
-        - Collaborated with other designers</p>
-        <h2>Educational History</h2>
-        <p><b>HGFZ Graduate Center</b><br>
-        Masters in Project Management | Mar 2031 – Jan 2033<br>
-        - Studied project planning, coordination, and ethics<br>
-        - Worked with startups on launching new apps and services</p>
-        <p><b>Cliffmoor College</b>
-        BA Product Design | Dec 2027 – Dec 2031<br>
-      - GPA: 3.26<br>
-      - Minor in Management<br>
-      - Thesis: Studied technology companies and optimized their product</p>
-     </td>
-   </tr>
 
-  <tr>
-     <td colspan="2" class="contact">
-        📞 09620558317 &nbsp; | &nbsp; ✉️ angelietantayfatalla15@gmail.com
+        <div class="contact">
+          📞 09620558317 <br>
+          📧 angelietantayfatalla15@gmail.com
+        </div>
+      </td>
+
+      <!-- RIGHT SIDE -->
+      <td>
+        <h1>Angelie T. Fatalla</h1>
+        <h3>IT Project Manager</h3>
+
+        <h2>WORK EXPERIENCE</h2>
+        <p><strong>Project Manager</strong> – Westheon FGW (Nov 2034 – 2040)</p>
+        <ul>
+          <li>Conduct day-to-day project coordination, planning, and implementation across multiple teams.</li>
+        </ul>
+
+        <p><strong>Senior UX Designer</strong> – Pixelpoint Hive (Jan 2032 – Sept 2034)</p>
+        <ul>
+          <li>Managed complex projects from start to finish.</li>
+          <li>Collaborated with other designers.</li>
+        </ul>
+
+        <h2>EDUCATIONAL HISTORY</h2>
+        <p><strong>HGFZ Graduate Center</strong> – Masters in Project Management (Mar 2031 – Jan 2033)</p>
+        <ul>
+          <li>Studied project planning, coordination, and ethics.</li>
+          <li>Worked with various startups on launching new apps and services.</li>
+        </ul>
+
+        <p><strong>Cliffmoor College</strong> – BA Product Design (Dec 2027 – Dec 2031)</p>
+        <ul>
+          <li>GPA: 3.26</li>
+          <li>Minor in Management</li>
+          <li>Thesis involved studying several technology companies and optimizing their product.</li>
+        </ul>
       </td>
     </tr>
   </table>
 
 </body>
 </html>
+Write to Angie Fatalla
