@@ -8,42 +8,79 @@ profile-pic
   Width: 150;
 Height: 150;
   }
- body {
+     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
     }
-    table 
-    left {
+    table
+    .left {
       width: 35%;
-      background-color: #d9dbd4; /*sage color*/
+      background-color: #d9dbd4; /* sage color */
       padding: 20px;
     }
-    td {
-      vertical-align: top;
-      padding: 15px;
-      border: 1px solid #dddd;
+    td
+    .left img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
     }
-    h2 {
-      margin-bottom: 10px:
-      color: darckgreen;
+    .left h2 {
+      color: darkgreen;
+      margin-bottom: 10px;
     }
-    ul {
-      margin: 5px 0 5px 20px;
+    .left p {
+      font-size: 14px;
+      color: #000;
     }
-    .header {
-      background: #CBD5C0 ash gray;
-      text-align: center;
+    .section-title {
+      color: #fff;
+      background: #000;
+      padding: 5px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills ul li {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .right {
+      width: 65%;
+      padding: 20px;
+      background: #f2f2f2; /* very light gray */
+    }
+    .name {
+      font-size: 28px;
+      color: darkgreen;
+      font-weight: bold;
+    }
+    .title {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .work, .education {
+      margin-bottom: 20px;
+    }
+    .work h3, .education h3 {
+      background: #000; 
+      color: #fff;
+      padding: 5px;
+    }
+    .job, .school {
+      margin-bottom: 15px;
+    }
+    .job h4, .school h4 {
+      margin: 5px 0;
+      color: #000;
     }
     .contact {
-      text-align: center;
+      margin-top: 30px;
       font-size: 14px;
-    }
-    .left-col {
-      width: 35%;
-      background #DFE6DA alabaster;
-    }
-    .right-col {
-      width: 65%;
     }
   </style>
 </head>
