@@ -10,11 +10,12 @@ Height: 150;
   }
  body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background-color: #f9f9f9;
     }
-    table {
+    table 
+    left {
       width: 35%;
-      background: #d9dbd4; /*sage color*/
+      background-color: #d9dbd4; /*sage color*/
       padding: 20px;
     }
     td {
